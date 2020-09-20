@@ -5,6 +5,7 @@
   padding: 20px;
   margin: 20px;
   transition: tranform 100ms;
+  background-color:black;
 }
 .videocard > img {
   height: 300px;
