@@ -1,0 +1,28 @@
+.videocard {
+  color: white;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+  transition: tranform 100ms;
+}
+.videocard > img {
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+.videocard:hover {
+  transform: scale(1.09);
+}
+.videocard > h2 {
+  padding-top: 10px;
+  font-size: 16px;
+}
+.videocard__stats {
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+.videocard:hover > .videocard__stats {
+  visibility: visible;
+}

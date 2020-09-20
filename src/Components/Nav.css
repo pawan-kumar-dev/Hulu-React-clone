@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  color: white;
+  overflow: auto;
+  overflow-x: scroll;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.nav > h5 {
+  cursor: pointer;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-weight: 500;
+  opacity: 0.7;
+  transition: transform 50ms ease-in;
+}
+.nav > h5:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.nav::-webkit-scrollbar {
+  /* hides scrollbar on chrome */
+  display: none;
+}
+
+.nav {
+  /* IE and edge */
+  -ms-overflow-style: none;
+  /* firefox */
+  scrollbar-width: none;
+}

@@ -1,0 +1,3 @@
+This is a hulu clone an american comapany website having the movies info
+Im using the tmdb api for fetching the info about the different movies,
+click on the top rated ,movies option on the second nav bar to view the multiple movies details
